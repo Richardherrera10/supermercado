@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body{
+    background: rgb(153,0,255);
+    background: linear-gradient(41deg, rgba(153,0,255,1) 0%, rgba(253,29,29,1) 54%, rgba(252,176,69,1) 100%);
+}
+
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+}
+.pestañas > a{
+    padding-left: 25px;
+
+}
+#superMercado{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    text-align:center;
+    margin-top: 15px;
+ }
+
+
+
+.restriction{
+    width: 50vw;
+    margin:auto
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000080' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000080' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+#vacunar{
+    font-family: 'Bangers', cursive;
+    text-align:center;
+    margin-top:20px;
+}
+.d-block w-100{
+    padding-right: 200px;
+}
+
+.extras{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+#uno{
+
+    width: 400px;
+
+    margin-right: 20px;
+    height:auto;
+}
+
+#dos{
+
+    width: 317px;
+    height: auto;
+}
+
+#space{
+    height:100px;
+}
